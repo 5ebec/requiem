@@ -16,7 +16,7 @@ codegen-units = 1
 
 [dependencies]
 rustler = "0.22"
-socket2 = { version= "0.2", features = ["reuseport"] }
+socket2 = { version= "0.3", features = ["reuseport"] }
 num_cpus = "1.13"
-quiche = "0.12.0"
+quiche = "0.19.2"
 crossbeam-channel = "0.5"
